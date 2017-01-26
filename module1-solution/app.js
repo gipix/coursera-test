@@ -15,6 +15,7 @@
       // there are no meals?!
       if ( !dishes ){
         $scope.message   = "Please enter data first";
+        $scope.cssStatus = "red";
         console.log("fill in meals");
         return;
       }
